@@ -48,9 +48,9 @@
         "prefix": "seleccion",
         "body": [
             "seleccion (${1:variable})",
-            "\t${2: 1}: ${3:// caso 1}",
-            "\t${4: 2}: ${5:// caso 2}",
-            "\t${6: 3}: ${7:// caso 3}",
+            "\t${2:1}: ${3:// caso 1}",
+            "\t${4:2}: ${5:// caso 2}",
+            "\t${6:3}: ${7:// caso 3}",
             "sino",
             "\t${8:// caso no definido}",
             "fseleccion$0"
