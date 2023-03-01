@@ -2,6 +2,7 @@
 
 Extension para Visual Studio Code que añade soporte para el lenguaje Mada, que es un pseudocódigo para la construcción de algoritmos de forma estructural para el ámbito académico.
 
+![alt text](https://github.com/CreyTuning/Mada/blob/main/img/logo-facyt.png?raw=true)
 
 ## Caracteristicas
 
