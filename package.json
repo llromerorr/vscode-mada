@@ -1,0 +1,29 @@
+{
+  "name": "mada",
+  "displayName": "Mada",
+  "description": "Soporte para el lenguaje Mada, que es un pseudocódigo para la construcción de algoritmos de forma estructural para el ámbito académico.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "snippets": [{
+      "language": "mada",
+      "path": "./snippets.json"
+    }],
+    "languages": [{
+      "id": "mada",
+      "aliases": ["Mada", "mada"],
+      "extensions": [".mc"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "mada",
+      "scopeName": "source.mada",
+      "path": "./syntaxes/mada.tmLanguage.json"
+    }]
+  }
+}

@@ -1,0 +1,274 @@
+{
+    "Cabecera del algoritmo": {
+        "prefix": "algoritmo",
+        "body": [
+            "algoritmo ${1:nombre_del_algoritmo}",
+            "\n$0"
+        ],
+
+        "description": [
+            "En la cabecera de un algoritmo puede indicarse el nombre (identificador) asignado al mismo"
+        ]
+    },
+
+    "Variables globales": {
+        "prefix": "variables",
+        "body": [
+            "variables\n\t${1:// numero : entero}\n\n$0"
+        ],
+
+        "description": [
+            "En esta sección se definen las variables globales del algortimo"
+        ]
+    },
+
+    "Constantes": {
+        "prefix": "constantes",
+        "body": [
+            "constantes\n\t${1:// pi <- 3,14159}\n\n$0"
+        ],
+
+        "description": [
+            "En esta sección se definen las constantes del algortimo"
+        ]
+    },
+
+    "Cuerpo del algoritmo": {
+        "prefix": "inicio",
+        "body": [
+            "inicio\n\t${0:// instrucciones}\nfin"
+        ],
+
+        "description": [
+            "En esta sección está el bloque de instrucciones principal del algoritmo."
+        ]
+    },
+
+    "Seleccion": {
+        "prefix": "seleccion",
+        "body": [
+            "seleccion (${1:variable})",
+            "\t${2: 1}: ${3:// caso 1}",
+            "\t${4: 2}: ${5:// caso 2}",
+            "\t${6: 3}: ${7:// caso 3}",
+            "sino",
+            "\t${8:// caso no definido}",
+            "fseleccion$0"
+        ],
+
+        "description": [
+            "Es un estructura condicional que ejecuta diferentes bloques de instrucciones dependiendo del valor de una <variable>"
+        ]
+    },
+
+    "Condicional simple": {
+        "prefix": "si",
+        "body": [
+            "si (${1:condicion}) entonces",
+            "\t${2:// instrucciones}",
+            "fsi$0"
+        ],
+
+        "description": [
+            "El condicional simple representan instrucciones que pueden o no ejecutarse, según el cumplimiento de la <condición>"
+        ]
+    },
+
+    "Condicional doble": {
+        "prefix": "si",
+        "body": [
+            "si (${1:condicion}) entonces",
+            "\t${2:// instrucciones}",
+            "sino",
+            "\t${3:// instrucciones}",
+            "fsi$0"
+        ],
+
+        "description": [
+            "El condicional doble realiza unas instrucciónes u otras según el cumplimiento de una <condición>."
+        ]
+    },
+
+    "Ciclo para": {
+        "prefix": "para",
+        "body": [
+            "para ${1:i} <- ${2: 1} hasta ${3:n} en ${4:1} hacer",
+            "\t${0:// instrucciones}",
+            "fpara"
+        ],
+
+        "description": [
+            "Una estructura de control muy común es el ciclo para, la cual se usa cuando se desea iterar un número conocido de veces, empleando como índice una variable que se incrementa (o decrementa)"
+        ]
+    },
+
+    "Ciclo mientras": {
+        "prefix": "mientras",
+        "body": [
+            "mientras (${1:condicion}) hacer",
+            "\t${0:// instrucciones}",
+            "fmientras"
+        ],
+
+        "description": [
+            "El bucle se repite mientras la condición sea cierta, si al llegar por primera vez al bucle mientras la condición es falsa, el cuerpo del bucle no se ejecuta alguna vez."
+        ]
+    },
+
+    "Ciclo repetir": {
+        "prefix": "repetir",
+        "body": [
+            "repetir",
+            "\t${0:// instrucciones}",
+            "mientras (${1:condicion})"
+        ],
+
+        "description": [
+            "La estructura de control repetir se utiliza cuando es necesario que el cuerpo del bucle se ejecuten al menos una vez y hasta que se cumpla la condición"
+        ]
+    },
+
+    "Función leer": {
+        "prefix": "leer",
+        "body": [
+            "leer(${1:variable})$0"
+        ],
+
+        "description": [
+            "Permite leer uno o mas datos introducidos por el usuario y almacenarlos en las variables que recibe como argumento."
+        ]
+    },
+
+    "Función escribir": {
+        "prefix": "escribir",
+        "body": [
+            "escribir(${1:variable})$0"
+        ],
+
+        "description": [
+            "Permite mostrar al usuario uno o mas datos."
+        ]
+    },
+
+    "Función escribir_archivo": {
+        "prefix": "escribir_archivo",
+        "body": [
+            "escribir_archivo(${1:id_archivo}, ${2:nombre_de_variable})$0"
+        ],
+
+        "description": [
+            "Escribe la informacion de <nombre_de_variable> en el document abierto por la funcion: abrir()"
+        ]
+    },
+    
+    "Función abrir archivo": {
+        "prefix": "abrir",
+        "body": [
+            "abrir(${1:id_archivo}, ${2:modo_de_apertura}, ${3:nombre_del_archivo})$0"
+        ],
+
+        "description": [
+            "Abre un archivo existente con el nombre <nombre_del_archivo> [de tipo cadena], en caso de no existir lo crea, y asigna a <id_archivo> [de tipo archivo] un apuntador que apunta al inicio del archivo. Los modos de aperturas [de tipo cadena] puden ser: lectura (\"l\"), escritura (\"e\") o lectura y escritura (\"l/e\")."
+        ]
+    },
+
+    "Función cerrar archivo": {
+        "prefix": "cerrar",
+        "body": [
+            "cerrar(${1:id_archivo})$0"
+        ],
+
+        "description": [
+            "Cierra el acceso al archivo, premitiendo a otros usuarios utilizar el mismo"
+        ]
+    },
+
+    "Función FDA (fin de archivo)": {
+        "prefix": "fda",
+        "body": [
+            "fda(${1:id_archivo})$0"
+        ],
+
+        "description": [
+            "Determina si <id_archivo> apunta al final del archivo. Esta funcion retorna un valor logico."
+        ]
+    },
+
+    "Funcion borrar archivo": {
+        "prefix": "borrar",
+        "body": [
+            "borrar(${1:nombre_del_archivo})}$0"
+        ],
+
+        "description": [
+            "Borra el archivo con el nombre <nombre_del_archivo>, liberando el espacio que ocupa en el soporte físico."
+        ]
+    },
+
+    
+    "Tipo de dato entero": {
+        "prefix": "entero",
+        "body": [
+            "entero"
+        ],
+
+        "description": [
+            "Tipo de dato para numeros enteros"
+        ]
+    },
+
+    "Tipo de dato real": {
+        "prefix": "real",
+        "body": [
+            "real"
+        ],
+
+        "description": [
+            "Tipo de dato para numeros reales"
+        ]
+    },
+
+    "Tipo de dato cadena": {
+        "prefix": "cadena",
+        "body": [
+            "cadena"
+        ],
+
+        "description": [
+            "Tipo de dato para cadenas de caracteres"
+        ]
+    },
+
+    "Tipo de dato caracter": {
+        "prefix": "caracter",
+        "body": [
+            "caracter"
+        ],
+
+        "description": [
+            "Tipo de dato para caracteres"
+        ]
+    },
+
+    "Tipo de dato logico": {
+        "prefix": "logico",
+        "body": [
+            "logico"
+        ],
+
+        "description": [
+            "Tipo de dato para valores logicos (verdad o falso)"
+        ]
+    },
+
+    "Tipo de dato archivo": {
+        "prefix": "archivo",
+        "body": [
+            "archivo"
+        ],
+
+        "description": [
+            "Tipo de dato para apuntadores a registros de archivos"
+        ]
+    }
+}
