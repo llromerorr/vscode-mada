@@ -1,18 +1,28 @@
 # Mada
+![alt text](https://github.com/CreyTuning/Mada/blob/main/img/cabecera.jpg?raw=true)
+
+**[Descargar](https://marketplace.visualstudio.com/items?itemName=lromero.mada)** | **[Desarrollador](http://https://www.instagram.com/llromerorr/)** | **[Manual](https://github.com/CreyTuning/Mada/tree/main)**
 
 Extension para Visual Studio Code que añade soporte para el lenguaje Mada, que es un pseudocódigo para la construcción de algoritmos de forma estructural para el ámbito académico.
 
-![alt text](https://github.com/CreyTuning/Mada/blob/main/img/logo-facyt.png?raw=true)
+
+
+# Acerca de Mada
+
+Mada aún esta en desarrollo, se iran agregando nuevos snippets y funcionalidades, por el momento puedes contruibir instalandola y  probandola con el fin de detectar fallos, en el siguiente cuadro puede confirmar el estado de desarrollo.
+
+|              | Estado actual de desarrollo |              |
+|--------------|--------------------|--------------|
+| Estructuras de control | PARA, MIENTRAS, REPETIR | Funcional |
+| Estructuras de condicionales | SI, SINO, SELECCION | Funcional |
+| Tipos de datos | ENTERO, REAL, LOGICO, ARCHIVO, CADENA, CARACTER | Funcional |
+| Snippets | TODAS LAS PALABRAS | Funcional |
 
 # Instalción y configuración
 
-Solo instale y comience a construir algoritmos, debe recordar que los archivos Mada son de extensión "**.mc**".
-
 **Instalar Mada: [Instalar](https://marketplace.visualstudio.com/items?itemName=lromero.mada)**
 
-O puede buscar la extension desde el gestor de extensiones de Visual Studio Code como "Mada".
-
-Para facilitar el uso, la extensión viene preconfigurada. 
+Solo instale y comience a construir algoritmos, debe recordar que los archivos Mada son de extensión "**.mc**". Puede tambien buscar la extension desde el gestor de extensiones de Visual Studio Code como "Mada".
 
 # Caracteristicas
 
