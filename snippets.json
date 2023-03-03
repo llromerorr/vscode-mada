@@ -14,7 +14,7 @@
     "Variables globales": {
         "prefix": "variables",
         "body": [
-            "variables\n\t${1:// numero : entero}\n\n$0"
+            "variables\n\t${1:// numero : entero}$0"
         ],
 
         "description": [
@@ -25,7 +25,7 @@
     "Constantes": {
         "prefix": "constantes",
         "body": [
-            "constantes\n\t${1:// pi <- 3,14159}\n\n$0"
+            "constantes\n\t${1:// pi <- 3,14159}$0"
         ],
 
         "description": [
@@ -153,13 +153,25 @@
     "Función escribir_archivo": {
         "prefix": "escribir_archivo",
         "body": [
-            "escribir_archivo(${1:id_archivo}, ${2:nombre_de_variable})$0"
+            "escribir_archivo(${1:id_archivo}, ${2:variable})$0"
         ],
 
         "description": [
-            "Escribe la informacion de <nombre_de_variable> en el document abierto por la funcion: abrir()"
+            "Escribe la informacion de <variable> en el document abierto por la funcion: abrir()"
         ]
     },
+
+    "Función leer archivo": {
+        "prefix": "leer_archivo",
+        "body": [
+            "leer_archivo(${1:id_archivo}, ${2:variable})$0"
+        ],
+
+        "description": [
+            "Copia la información contenida en un registro del archivo a <variable>."
+        ]
+    },
+
     
     "Función abrir archivo": {
         "prefix": "abrir",
