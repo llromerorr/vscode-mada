@@ -4,7 +4,17 @@ Extension para Visual Studio Code que añade soporte para el lenguaje Mada, que 
 
 ![alt text](https://github.com/CreyTuning/Mada/blob/main/img/logo-facyt.png?raw=true)
 
-## Caracteristicas
+# Instalción y configuración
+
+Solo instale y comience a construir algoritmos, debe recordar que los archivos Mada son de extensión "**.mc**".
+
+**Instalar Mada: [Instalar](https://marketplace.visualstudio.com/items?itemName=lromero.mada)**
+
+O puede buscar la extension desde el gestor de extensiones de Visual Studio Code como "Mada".
+
+Para facilitar el uso, la extensión viene preconfigurada. 
+
+# Caracteristicas
 
 El pseudocódigo Mada es un lenguaje informal que se utiliza para describir algoritmos en un lenguaje que es fácil de entender, por lo que no existe una sintaxis estándar o formal para el pseudocódigo. Aun así, hay algunas características generales que estan presentes:
 
@@ -58,11 +68,7 @@ En este caso la estructura seleccion ejecuta diferentes bloques de instrucciones
 Para definir constantes solo debemos utilizar la palabra reservada **constantes**, y en ese bloque de codigo inicializar la constante sin necesidar de definir el tipo de dato.
 ![alt text](https://github.com/CreyTuning/Mada/blob/main/img/8.png?raw=true)
 
-## Configuración de la extensión
-
-Para facilitar el uso, la extensión viene preconfigurada. Solo instale y comience a construir algoritmos.
-
-## Para mas información
+# Para mas información
 
 * [Instagram del desarrollador](http://https://www.instagram.com/llromerorr/)
 
