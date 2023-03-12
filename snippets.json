@@ -33,7 +33,7 @@
         ]
     },
 
-    "Cuerpo del algoritmo": {
+    "Cuerpo del algoritmo principal": {
         "prefix": "inicio",
         "body": [
             "inicio\n\t${0:// instrucciones}\nfin"
@@ -92,7 +92,7 @@
     "Ciclo para": {
         "prefix": "para",
         "body": [
-            "para ${1:i} <- ${2: 1} hasta ${3:n} en ${4:1} hacer",
+            "para ${1:i} <- ${2:1} hasta ${3:n} en ${4:1} hacer",
             "\t${0:// instrucciones}",
             "fpara"
         ],
@@ -191,7 +191,7 @@
         ],
 
         "description": [
-            "Cierra el acceso al archivo, premitiendo a otros usuarios utilizar el mismo"
+            "Cierra el acceso al archivo. Es importante saber que cuando se desea dejar de trabajar con un archivo, debe cerrarse para que esté disponible para otras aplicaciones. Sólo los archivos que están abiertos pueden cerrarse. Si un archivo no se cierra se puede perder información en el mismo."
         ]
     },
 
@@ -202,7 +202,7 @@
         ],
 
         "description": [
-            "Determina si <id_archivo> apunta al final del archivo. Esta funcion retorna un valor logico."
+            "indica si no hay más elementos para leer en el archivo apuntado por <id_archivo>. Sólo se usa para archivos de lectura. Retorna verdadero si se alcanzó el fin del archivo y falso en caso contrario."
         ]
     },
 
@@ -281,6 +281,35 @@
 
         "description": [
             "Tipo de dato para apuntadores a registros de archivos"
+        ]
+    },
+
+    "Funcion": {
+        "prefix": "funcion",
+        "body": [
+            "funcion ${1:identificador}() : ${2:entero}",
+            "\tvariables\n\t\t// numero : entero",
+            "\tinicio\n\t\t${0:// instrucciones}",
+            "\t\tretornar(0)",
+            "ffuncion"
+        ],
+
+        "description": [
+            "La función es una operación que puede recibir datos de entrada y retorna una salida"
+        ]
+    },
+
+    "Procedimiento": {
+        "prefix": "procedimiento",
+        "body": [
+            "procedimiento ${1:identificador}()",
+            "\tvariables\n\t\t// numero : entero",
+            "\tinicio\n\t\t${0:// instrucciones}",
+            "fprocedimiento"
+        ],
+
+        "description": [
+            "Los procedimientos son operaciones que pueden recibir datos de entrada, se usan para un fin determinado, y no producen ninguna salida, sin embargo, pueden devolver resultados si entre sus parámetros formales existe alguno declarado por referencia."
         ]
     }
 }
