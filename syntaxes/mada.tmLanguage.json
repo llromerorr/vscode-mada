@@ -52,6 +52,10 @@
 					"match": "(?i)\\b(entero|real|logico|cadena|caracter|archivo|nulo)\\b"
 				},
 				{
+					"name": "keyword.control",
+					"match": "(?i)\\b(retornar)\\b"
+				},
+				{
 					"name": "keyword.other",
 					"match": "(?i)\\b(ref|val)\\b"
 				},
