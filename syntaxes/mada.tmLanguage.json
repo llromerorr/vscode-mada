@@ -49,7 +49,7 @@
 				},
 				{
 					"name": "entity.name.type",
-					"match": "(?i)\\b(entero|real|logico|cadena|caracter|archivo|nulo)\\b"
+					"match": "(?i)\\b(entero|real|logico|cadena|caracter|archivo|nulo|arreglo)\\b"
 				},
 				{
 					"name": "keyword.control",
@@ -61,11 +61,11 @@
 				},
 				{
 					"name": "keyword.operator",
-					"match": "(?i)\\b(and|or|not|div|mod)\\b"
+					"match": "(?i)\\b(and|or|not|div|mod|de|..)\\b"
 				},
 				{
 					"name": "keyword.control",
-					"match": "(?i)\\b(inicio|fin|algoritmo|variables|constantes)\\b"
+					"match": "(?i)\\b(inicio|fin|algoritmo|variables|constantes|tipos)\\b"
 				},
 				{
 					"name": "keyword.declaration.function",

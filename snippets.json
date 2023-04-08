@@ -11,6 +11,17 @@
         ]
     },
 
+    "Tipos de datos": {
+        "prefix": "tipos",
+        "body": [
+            "tipos\n\t${1:// identificador : nuevo_tipo}$0"
+        ],
+
+        "description": [
+            "En esta sección se encuentran los tipo de datos definidos por el usuario"
+        ]
+    },
+
     "Variables globales": {
         "prefix": "variables",
         "body": [
