@@ -11,13 +11,6 @@ Extension para Visual Studio Code que añade soporte para el lenguaje Mada, que 
 
 Mada aún esta en desarrollo, se iran agregando nuevos snippets y funcionalidades, por el momento puedes contruibir instalandola y  probandola con el fin de detectar fallos, en el siguiente cuadro puede confirmar el estado de desarrollo.
 
-|              | Estado actual de desarrollo |              |
-|--------------|--------------------|--------------|
-| Estructuras de control | PARA, MIENTRAS, REPETIR | Funcional |
-| Estructuras de condicionales | SI, SINO, SELECCION | Funcional |
-| Tipos de datos | ENTERO, REAL, LOGICO, ARCHIVO, CADENA, CARACTER | Funcional |
-| Snippets | TODAS LAS PALABRAS | Funcional |
-
 # Instalción y configuración
 
 **Instalar Mada: [Instalar](https://marketplace.visualstudio.com/items?itemName=lromero.mada)**

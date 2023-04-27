@@ -2,7 +2,7 @@
   "name": "mada",
   "displayName": "Mada",
   "description": "Soporte para el lenguaje Mada, que es un pseudocódigo para la construcción de algoritmos de forma estructural para el ámbito académico.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "icon": "img/icon.png",
   "repository": {
     "url": "https://github.com/CreyTuning/Mada"

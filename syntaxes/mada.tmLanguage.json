@@ -61,7 +61,7 @@
 				},
 				{
 					"name": "keyword.operator",
-					"match": "(?i)\\b(and|or|not|div|mod|de|..)\\b"
+					"match": "(?i)\\b(and|or|not|div|mod|de)\\b"
 				},
 				{
 					"name": "keyword.control",
