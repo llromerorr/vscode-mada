@@ -1,5 +1,5 @@
 # Mada
-![alt text](https://github.com/CreyTuning/Mada/blob/main/img/cabecera.jpg?raw=true)
+![alt text](https://github.com/CreyTuning/vscode-mada/blob/main/img/cabecera.jpg?raw=true)
 
 **[Descargar](https://marketplace.visualstudio.com/items?itemName=lromero.mada)** | **[Desarrollador](http://https://www.instagram.com/llromerorr/)** | **[Manual](https://github.com/CreyTuning/Mada/tree/main)**
 
