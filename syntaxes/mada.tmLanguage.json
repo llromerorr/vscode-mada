@@ -73,11 +73,11 @@
 				},
 				{
 					"name": "keyword.declaration.class",
-					"match": "(?i)\\bclass\\b"
+					"match": "(?i)\\bclase\\b"
 				},
 				{
 					"name": "keyword.declaration.struct",
-					"match": "(?i)\\bstruct\\b"
+					"match": "(?i)\\bregistro\\b"
 				},
 				{
 					"name": "meta.function-call",
@@ -94,7 +94,7 @@
 			"patterns": [
 				{
 					"name": "meta.function",
-					"begin": "(?i)\\b(static |private |public )?((funcion|procedimiento)) ([a-zA-Z_][a-zA-Z0-9_]*)\\(((.*?))\\) *(?:\\{|(do))",
+					"begin": "(?i)\\b(estatico |privado |publico )?((funcion|procedimiento)) ([a-zA-Z_][a-zA-Z0-9_]*)\\(((.*?))\\) *(?:\\{|(do))",
 					"end": "(?i)(?:\\}|(end))",
 					"beginCaptures": {
 						"1": {
@@ -159,7 +159,7 @@
 				},
 				{
 					"name": "meta.class",
-					"begin": "(?i)\\b(static |private |public )?((class)) ([a-zA-Z_][a-zA-Z0-9_]*) *(?:(extends) *([a-zA-Z_][a-zA-Z0-9_]*))? *(?:\\{|(do))",
+					"begin": "(?i)\\b(estatico |privado |publico )?((clase)) ([a-zA-Z_][a-zA-Z0-9_]*) *(?:(extiende) *([a-zA-Z_][a-zA-Z0-9_]*))? *(?:\\{|(do))",
 					"end": "(?i)(?:\\}|(end))",
 					"beginCaptures": {
 						"1": {
@@ -224,8 +224,8 @@
 				},
 				{
 					"name": "meta.struct",
-					"begin": "(?i)\\b(static |private |public )?((struct)) ([a-zA-Z_][a-zA-Z0-9_]*) *(?:\\{|(do))",
-					"end": "(?i)(?:\\}|(end))",
+					"begin": "(?i)\\b(estatico |privado |publico )?((registro)) ([a-zA-Z_][a-zA-Z0-9_]*) *(?:\\{|(=))",
+					"end": "(?i)(?:\\}|(fregistro))",
 					"beginCaptures": {
 						"1": {
 							"name": "storage.modifier"
@@ -294,27 +294,27 @@
 				},
 				{
 					"name": "storage.type.class",
-					"match": "(?i)\\bclass\\b"
+					"match": "(?i)\\bclase\\b"
 				},
 				{
 					"name": "storage.type.struct",
-					"match": "(?i)\\bstruct\\b"
+					"match": "(?i)\\bregistro\\b"
 				},
 				{
 					"name": "storage.modifier",
-					"match": "(?i)\\bextends\\b"
+					"match": "(?i)\\bextiende\\b"
 				},
 				{
 					"name": "storage.modifier",
-					"match": "(?i)\\bstatic\\b"
+					"match": "(?i)\\bestatico\\b"
 				},
 				{
 					"name": "storage.modifier",
-					"match": "(?i)\\bpublic\\b"
+					"match": "(?i)\\bpublico\\b"
 				},
 				{
 					"name": "storage.modifier",
-					"match": "(?i)\\bprivate\\b"
+					"match": "(?i)\\bprivado\\b"
 				}
 			]
 		},
@@ -414,11 +414,11 @@
 				},
 				{
 					"name": "entity.name.class",
-					"match": "(?i)\\b(?<=class )[a-zA-Z_][a-zA-Z0-9_]*(?= *\\()\\b"
+					"match": "(?i)\\b(?<=clase )[a-zA-Z_][a-zA-Z0-9_]*(?= *\\()\\b"
 				},
 				{
 					"name": "entity.name.struct",
-					"match": "(?i)\\b(?<=struct )[a-zA-Z_][a-zA-Z0-9_]*(?= *\\()\\b"
+					"match": "(?i)\\b(?<=registro )[a-zA-Z_][a-zA-Z0-9_]*(?= *\\()\\b"
 				}
 			]
 		},

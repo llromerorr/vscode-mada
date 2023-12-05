@@ -322,5 +322,18 @@
         "description": [
             "Los procedimientos son operaciones que pueden recibir datos de entrada, se usan para un fin determinado, y no producen ninguna salida, sin embargo, pueden devolver resultados si entre sus parámetros formales existe alguno declarado por referencia."
         ]
+    },
+
+    "Registro": {
+        "prefix": "registro",
+        "body": [
+            "registro ${1:identificador} =",
+            "\t//numero : entero",
+            "fregistro"
+        ],
+
+        "description": [
+            "Los registros son colecciones de variables relacionadas bajo un nombre. Los registros pueden contener variables de muchos tipos diferentes de datos, a diferencia de los arreglos que contienen unicamente elementos de un mismo tipo de dato."
+        ]
     }
 }
